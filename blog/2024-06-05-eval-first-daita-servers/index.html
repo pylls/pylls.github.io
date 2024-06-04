@@ -68,8 +68,8 @@
     <h1 id="evaluating-using-the-first-eight-daita-servers">Evaluating using the first eight DAITA servers</h1>
 <p>About a month ago Mullvad released <a href="https://mullvad.net/en/blog/introducing-defense-against-ai-guided-traffic-analysis-daita">Defense against AI-guided Traffic Analysis
 (DAITA)</a>
-for their Windows beta client. In summary, DAITA consists of three components:
-the traffic analysis defense framework
+for their Windows client. In summary, DAITA consists of three components: the
+traffic analysis defense framework
 <a href="https://github.com/maybenot-io/maybenot">Maybenot</a>, tailored defenses
 implemented in Maybenot, and (significant) integration efforts of Maybenot into
 Mullvad VPN&rsquo;s stack.</p>
@@ -109,7 +109,7 @@ the variability caused by websites being mirrored across the world (e.g., using
 CDNs).</p>
 <h2 id="experiment-setup">Experiment setup</h2>
 <p>We set up 20 Windows 11 VMs in Sweden connected to <a href="https://sunet.se/en">Sunet</a>,
-the Swedish university network. Each runs the Mullvad beta client and <a href="https://mullvad.net/en/browser">Mullvad
+the Swedish university network. Each runs the Mullvad client and <a href="https://mullvad.net/en/browser">Mullvad
 Browser</a>, which is controlled by a Python script
 using <a href="https://www.selenium.dev/">Selenium</a>. Network traffic is captured at each
 client using <a href="https://www.wireshark.org/docs/man-pages/tshark.html">tshark</a>.</p>

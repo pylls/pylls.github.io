@@ -13,7 +13,7 @@
       <link>https://pulls.name/blog/2024-06-05-eval-first-daita-servers/</link>
       <pubDate>Tue, 04 Jun 2024 00:22:06 +0200</pubDate>
       <guid>https://pulls.name/blog/2024-06-05-eval-first-daita-servers/</guid>
-      <description>Evaluating using the first eight DAITA servers About a month ago Mullvad released Defense against AI-guided Traffic Analysis (DAITA) for their Windows beta client. In summary, DAITA consists of three components: the traffic analysis defense framework Maybenot, tailored defenses implemented in Maybenot, and (significant) integration efforts of Maybenot into Mullvad VPN&amp;rsquo;s stack.&#xA;DAITA = Maybenot + custom defenses + Mullvad VPN integration&#xA;I have been working with Mullvad on DAITA for a while, focusing on Maybenot and defense tooling.</description>
+      <description>Evaluating using the first eight DAITA servers About a month ago Mullvad released Defense against AI-guided Traffic Analysis (DAITA) for their Windows client. In summary, DAITA consists of three components: the traffic analysis defense framework Maybenot, tailored defenses implemented in Maybenot, and (significant) integration efforts of Maybenot into Mullvad VPN&amp;rsquo;s stack.&#xA;DAITA = Maybenot + custom defenses + Mullvad VPN integration&#xA;I have been working with Mullvad on DAITA for a while, focusing on Maybenot and defense tooling.</description>
     </item>
   </channel>
 </rss>
