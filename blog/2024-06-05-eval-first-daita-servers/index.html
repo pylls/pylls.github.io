@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Evaluating the first eight DAITA servers</title>
+    <title>Evaluating using the first eight DAITA servers</title>
     <meta name="description" content="A short whoami of Tobias Pulls">
     <meta name="author" content='Tobias Pulls'>
 
@@ -65,7 +65,7 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h1 id="evaluating-the-first-eight-daita-servers">Evaluating the first eight DAITA servers</h1>
+    <h1 id="evaluating-using-the-first-eight-daita-servers">Evaluating using the first eight DAITA servers</h1>
 <p>About a month ago Mullvad released <a href="https://mullvad.net/en/blog/introducing-defense-against-ai-guided-traffic-analysis-daita">Defense against AI-guided Traffic Analysis
 (DAITA)</a>
 for their Windows beta client. In summary, DAITA consists of three components:
@@ -81,7 +81,7 @@ defense tooling. Maybenot is already open source, and so is <a href="https://git
 integration</a>. <em>We have so much more
 stuff in the pipeline to share as open source and open access</em>, but for now, I
 want to share some evaluation results from measuring the first eight DAITA
-servers.</p>
+servers <em>from the perspective of a Windows client</em>.</p>
 <h2 id="the-servers">The servers</h2>
 <p>The <a href="https://mullvad.net/en/servers">first eight DAITA servers</a> were deployed in
 the following locations:</p>
@@ -143,8 +143,8 @@ rtt min/avg/max/mdev = 100.712/100.852/101.999/0.182 ms
 <p>Between 2024-05-29 and 2024-06-02, we collected 16 datasets: one for each of the
 8 servers with and without DAITA (&ldquo;undefended&rdquo; below). Each dataset comprises
 100 samples of 50 Karlstad University webpages visited using the Mullvad
-Browser. In total, we collected 80,000 network traces in the form of PCAPs from
-the clients.</p>
+Browser. In total, we collected 80,000 network traces in the form of <em>PCAPs from
+the clients</em>.</p>
 <h2 id="results">Results</h2>
 <p>We processed the data, computed performance metrics, and evaluated using two
 state-of-the-art deep-learning-based website fingerprinting attacks: <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243768">Deep
