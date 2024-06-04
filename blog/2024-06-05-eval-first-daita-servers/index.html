@@ -111,7 +111,8 @@ CDNs).</p>
 <p>We set up 20 Windows 11 VMs in Sweden connected to <a href="https://sunet.se/en">Sunet</a>,
 the Swedish university network. Each runs the Mullvad beta client and <a href="https://mullvad.net/en/browser">Mullvad
 Browser</a>, which is controlled by a Python script
-using Selenium.</p>
+using <a href="https://www.selenium.dev/">Selenium</a>. Network traffic is captured at each
+client using <a href="https://www.wireshark.org/docs/man-pages/tshark.html">tshark</a>.</p>
 <p>The primary source of latency between the client and the Karlstad University
 website (both hosted in Sweden by Sunet) will be the location of the DAITA
 server (and potential congestion caused by defenses, as we will soon see). Below
@@ -141,10 +142,10 @@ ping -c 100 us-nyc-wg-601.relays.mullvad.net
 rtt min/avg/max/mdev = 100.712/100.852/101.999/0.182 ms
 </code></pre><h2 id="data-collection">Data collection</h2>
 <p>Between 2024-05-29 and 2024-06-02, we collected 16 datasets in the form of
-<em>PCAPs from our Windows clients</em>: one for each of the 8 servers with and without
-DAITA (&ldquo;undefended&rdquo; below). Each dataset comprises 100 samples of 50 Karlstad
-University webpages visited using the Mullvad Browser. In total, we collected
-80,000 network traces.</p>
+<em>PCAPs from our 20 experiment Windows clients</em>: one for each of the 8 servers
+with and without DAITA (&ldquo;undefended&rdquo; below). Each dataset comprises 100 samples
+of 50 Karlstad University webpages visited using the Mullvad Browser. In total,
+we collected 80,000 network traces.</p>
 <h2 id="results">Results</h2>
 <p>We processed the data, computed performance metrics, and evaluated using two
 state-of-the-art deep-learning-based website fingerprinting attacks: <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243768">Deep
