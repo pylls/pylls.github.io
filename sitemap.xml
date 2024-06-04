@@ -2,8 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pulls.name/about/</loc>
+    <loc>https://pulls.name/blog/</loc>
+    <lastmod>2024-06-04T00:22:06+02:00</lastmod>
+  </url><url>
+    <loc>https://pulls.name/blog/2024-06-05-eval-first-daita-servers/</loc>
+    <lastmod>2024-06-04T00:22:06+02:00</lastmod>
   </url><url>
     <loc>https://pulls.name/</loc>
+    <lastmod>2024-06-04T00:22:06+02:00</lastmod>
+  </url><url>
+    <loc>https://pulls.name/about/</loc>
   </url>
 </urlset>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Evaluating the first eight DAITA servers</title>
+    <meta name="description" content="A short whoami of Tobias Pulls">
+    <meta name="author" content='Tobias Pulls'>
+
+    <link rel="stylesheet" href="/font.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://pulls.name/favicon.ico">
+    
+
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://pulls.name">
+          
+          Tobias Pulls
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/resume.pdf">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/></svg> Resume
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://github.com/pylls/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/> </svg> Github
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://twitter.com/tpulls">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16"> <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg> Twitter
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/blog">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">  <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z"/></svg>Blog
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="evaluating-the-first-eight-daita-servers">Evaluating the first eight DAITA servers</h1>
+<p>About a month ago Mullvad released <a href="https://mullvad.net/en/blog/introducing-defense-against-ai-guided-traffic-analysis-daita">Defense against AI-guided Traffic Analysis
+(DAITA)</a>
+for their Windows beta client. In summary, DAITA consists of three components:
+the traffic analysis defense framework
+<a href="https://github.com/maybenot-io/maybenot">Maybenot</a>, tailored defenses
+implemented in Maybenot, and (significant) integration efforts of Maybenot into
+Mullvad VPN&rsquo;s stack.</p>
+<blockquote>
+<p>DAITA = Maybenot + custom defenses + Mullvad VPN integration</p>
+</blockquote>
+<p>I have been working with Mullvad on DAITA for a while, focusing on Maybenot and
+defense tooling. Maybenot is already open source, and so is <a href="https://github.com/mullvad/mullvadvpn-app/">Mullvad&rsquo;s client
+integration</a>. <em>We have so much more
+stuff in the pipeline to share as open source and open access</em>, but for now, I
+want to share some evaluation results from measuring the first eight DAITA
+servers.</p>
+<h2 id="the-servers">The servers</h2>
+<p>The <a href="https://mullvad.net/en/servers">first eight DAITA servers</a> were deployed in
+the following locations:</p>
+<p><a href="/daita-v1-servers.png"><img src="/daita-v1-servers.png"></a></p>
+<p>It is a healthy mix of locations, providers, and types of servers.</p>
+<p>All servers run the same customized Maybenot defenses. Details on the actual
+defenses are another topic, but for now, it is enough to know that they are
+heavily randomized, and each WireGuard connection will likely behave quite
+differently.</p>
+<h2 id="evaluation-goal">Evaluation goal</h2>
+<p>We want to compare the eight servers regarding defense level and performance
+overheads. Being geographically distributed, we want to understand how the
+defenses perform in vastly different network conditions.</p>
+<h2 id="attack-setup">Attack setup</h2>
+<p>Our attack scenario is an attacker that, somehow, knows that a client visited
+the website for <a href="https://www.kau.se/en">Karlstad University, Sweden</a> (e.g., due
+to <a href="https://mullvad.net/en/blog/dns-traffic-can-leak-outside-the-vpn-tunnel-on-android">a DNS
+leak</a>)
+and wants to determine the webpage (of the university) the client visited. This
+type of traffic analysis attack is called a web<em>page</em> fingerprinting attack in
+the academic literature, a particular case of <a href="https://www-users.cse.umn.edu/~hoppernj/sok_wf_def_sp23.pdf">web<em>site</em>
+fingerprinting</a>.</p>
+<p>Karlstad University&rsquo;s website is hosted in Sweden, which was chosen to reduce
+the variability caused by websites being mirrored across the world (e.g., using
+CDNs).</p>
+<h2 id="experiment-setup">Experiment setup</h2>
+<p>We set up 20 Windows 11 VMs in Sweden connected to <a href="https://sunet.se/en">Sunet</a>,
+the Swedish university network. Each runs the Mullvad beta client and <a href="https://mullvad.net/en/browser">Mullvad
+Browser</a>, which is controlled by a Python script
+using Selenium.</p>
+<p>The primary source of latency between the client and the Karlstad University
+website (both hosted in Sweden by Sunet) will be the location of the DAITA
+server (and potential congestion caused by defenses, as we will soon see). Below
+are the results of pinging the DAITA servers from the client VMs.</p>
+<pre tabindex="0"><code>ping -c 100 nl-ams-wg-002.relays.mullvad.net
+rtt min/avg/max/mdev = 20.346/20.454/20.700/0.056 ms
+
+ping -c 100 nl-ams-wg-103.relays.mullvad.net
+rtt min/avg/max/mdev = 23.442/23.558/24.461/0.101 ms
+
+ping -c 100 gb-lon-wg-008.relays.mullvad.net
+rtt min/avg/max/mdev = 25.011/25.106/25.228/0.042 ms
+
+ping -c 100 gb-lon-wg-304.relays.mullvad.net
+rtt min/avg/max/mdev = 30.718/30.799/30.961/0.041 ms
+
+ping -c 100 us-lax-wg-203.relays.mullvad.net
+rtt min/avg/max/mdev = 185.640/186.107/202.877/1.802 ms
+
+ping -c 100 us-lax-wg-406.relays.mullvad.net
+rtt min/avg/max/mdev = 176.737/177.205/178.312/0.214 ms
+
+ping -c 100 us-nyc-wg-303.relays.mullvad.net
+rtt min/avg/max/mdev = 107.457/107.563/108.538/0.109 ms
+
+ping -c 100 us-nyc-wg-601.relays.mullvad.net
+rtt min/avg/max/mdev = 100.712/100.852/101.999/0.182 ms
+</code></pre><h2 id="data-collection">Data collection</h2>
+<p>Between 2024-05-29 and 2024-06-02, we collected 16 datasets: one for each of the
+8 servers with and without DAITA (&ldquo;undefended&rdquo; below). Each dataset comprises
+100 samples of 50 Karlstad University webpages visited using the Mullvad
+Browser. In total, we collected 80,000 network traces in the form of PCAPs from
+the clients.</p>
+<h2 id="results">Results</h2>
+<p>We processed the data, computed performance metrics, and evaluated using two
+state-of-the-art deep-learning-based website fingerprinting attacks: <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243768">Deep
+Fingerprinting (DF)</a> and
+<a href="https://www.usenix.org/conference/usenixsecurity23/presentation/shen-meng">Robust Fingerprinting
+(RF)</a>.</p>
+<p><a href="/daita-v1-first-8-eval.png"> <img src="/daita-v1-first-8-eval.png"></a></p>
+<h2 id="some-key-takeaways">Some key takeaways</h2>
+<p>DAITA reduces the success rate of both DF and RF attacks, with more prolonged
+traces (US servers) offering slightly less protection. The protection costs
+around 2-4 MiB of bandwidth overhead and 1-3 seconds of delay per website visit,
+depending on server (and website) location.</p>
+<p>The defenses are padding-only defenses that create so much padding traffic that
+congestion occurs, implicitly introducing notable delays. In the future,
+defenses should explicitly create short, useful (for protection) delays and aim
+to account for congestion to minimize delays.</p>
+<p>The user experience of enabling DAITA when browsing with Mullvad Browser is less
+than changing the server location from Europe to the US. Recall that the
+Karlstad University website is hosted in Sweden, so the traffic crossed the
+Atlantic twice in our experiment (unlike most regular website visits most users
+do). Not great, but not terrible. Much can and will be improved&hellip;stay tuned!</p>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    
+</div>
+</body>
+</html>
