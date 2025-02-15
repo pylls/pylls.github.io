@@ -4,7 +4,7 @@
     <title>Tobias Pulls</title>
     <link>https://pulls.name/</link>
     <description>Recent content on Tobias Pulls</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 04 Jun 2024 00:22:06 +0200</lastBuildDate>
     <atom:link href="https://pulls.name/index.xml" rel="self" type="application/rss+xml" />
@@ -14,13 +14,6 @@
       <pubDate>Tue, 04 Jun 2024 00:22:06 +0200</pubDate>
       <guid>https://pulls.name/blog/2024-06-05-eval-first-daita-servers/</guid>
       <description>Evaluating using the first eight DAITA servers About a month ago Mullvad released Defense against AI-guided Traffic Analysis (DAITA) for their Windows client. In summary, DAITA consists of three components: the traffic analysis defense framework Maybenot, tailored defenses implemented in Maybenot, and (significant) integration efforts of Maybenot into Mullvad VPN&amp;rsquo;s stack.&#xA;DAITA = Maybenot + custom defenses + Mullvad VPN integration&#xA;I have been working with Mullvad on DAITA for a while, focusing on Maybenot and defense tooling.</description>
-    </item>
-    <item>
-      <title>Tobias Pulls</title>
-      <link>https://pulls.name/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pulls.name/about/</guid>
-      <description>A cybersecurity researcher in the forests of Värmland, Sweden, that cares deeply about privacy, human rights, and democracy. Working as a senior lecturer (docent ≈ associate professor) in Computer Science at Karlstad University, Sweden. I have collaborated on a range of topics in projects funded by EU {H2020, FP6, FP7, TEMPUS}, Google, Mullvad VPN, the NLnet Foundation, the Swedish Foundation for Strategic Research, the Swedish Internet Foundation, the Swedish Knowledge Foundation, and more.</description>
     </item>
   </channel>
 </rss>
