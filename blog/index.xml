@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Tobias Pulls</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Jun 2024 00:22:06 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 27 Mar 2025 11:05:28 +0200</lastBuildDate>
     <atom:link href="https://pulls.name/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DAITA v1 and v2 defenses</title>
+      <link>https://pulls.name/blog/2025-03-27-daita-v1-and-v2-defenses/</link>
+      <pubDate>Thu, 27 Mar 2025 11:05:28 +0200</pubDate>
+      <guid>https://pulls.name/blog/2025-03-27-daita-v1-and-v2-defenses/</guid>
+      <description>DAITA v1 and v2 defenses At the time of writing, Mullvad is transitioning DAITA from v1 to v2. All latest platform releases are now fully supporting v2. Besides some UX improvements to the Mullvad VPN app, defense updates are mostly transparent to users. It should lead to significantly better performance, especially on mobile.&#xA;I collaborate closely with Mullvad on DAITA. This blog post shares some details on how DAITA v1 works and what is new in v2.</description>
+    </item>
     <item>
       <title>Evaluating using the first eight DAITA servers</title>
       <link>https://pulls.name/blog/2024-06-05-eval-first-daita-servers/</link>

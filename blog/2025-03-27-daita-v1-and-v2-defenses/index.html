@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>DAITA v1 and v2 defenses</title>
+    <meta name="description" content="A short whoami of Tobias Pulls">
+    <meta name="author" content='Tobias Pulls'>
+
+    <link rel="stylesheet" href="/font.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://pulls.name/favicon.ico">
+    
+
+    
+        
+  
+
+
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://pulls.name/">
+          
+          Tobias Pulls
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/resume.pdf">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/></svg> Resume
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://github.com/pylls/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/> </svg> Github
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://infosec.exchange/@pulls">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mastodon" viewBox="0 0 16 16"><path d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a4 4 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522q0-1.288.66-2.046c.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764q.662.757.661 2.046z"/></svg>   
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://bsky.app/profile/pulls.name">
+                        <svg role="img" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"height="16" width="16"><path d="M8 7.2c-0.7246666666666666 -1.409333333333333 -2.6973333333333334 -4.035333333333333 -4.532 -5.33C1.7106666666666666 0.6293333333333333 1.0406666666666666 0.844 0.6013333333333333 1.0433333333333332 0.09266666666666667 1.2719999999999998 0 2.0533333333333332 0 2.5119999999999996c0 0.45999999999999996 0.252 3.7666666666666666 0.416 4.319333333333333 0.5433333333333332 1.824 2.4753333333333334 2.44 4.255333333333333 2.2426666666666666 0.09066666666666667 -0.013333333333333332 0.18333333333333335 -0.026 0.2766666666666666 -0.03733333333333333 -0.092 0.014666666666666665 -0.184 0.026666666666666665 -0.2766666666666666 0.03733333333333333 -2.6079999999999997 0.3866666666666666 -4.924666666666666 1.3366666666666664 -1.8866666666666667 4.718666666666667 3.3419999999999996 3.46 4.58 -0.742 5.215333333333334 -2.872 0.6353333333333333 2.13 1.3666666666666665 6.180666666666667 5.155333333333333 2.872 2.844666666666667 -2.872 0.7813333333333332 -4.332 -1.8266666666666667 -4.718666666666667a5.827333333333333 5.827333333333333 0 0 1 -0.2766666666666666 -0.03733333333333333c0.09333333333333334 0.011333333333333334 0.186 0.023999999999999997 0.2766666666666666 0.03733333333333333 1.7799999999999998 0.19799999999999998 3.7119999999999997 -0.41866666666666663 4.255333333333333 -2.2426666666666666 0.16399999999999998 -0.5519999999999999 0.416 -3.86 0.416 -4.318666666666666 0 -0.45999999999999996 -0.09266666666666667 -1.2406666666666666 -0.6013333333333333 -1.4706666666666666 -0.43933333333333335 -0.19866666666666666 -1.1093333333333333 -0.41333333333333333 -2.8666666666666663 0.8266666666666667C10.697333333333333 3.1653333333333333 8.724666666666666 5.791333333333332 8 7.2Z" fill="currentColor" stroke-width="0.6667"></path></svg>  
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://X.com/tpulls">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/></svg> 
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/blog">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">  <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z"/></svg> Blog
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="daita-v1-and-v2-defenses">DAITA v1 and v2 defenses</h1>
+<p>At the time of writing, Mullvad is transitioning
+<a href="https://mullvad.net/en/vpn/daita">DAITA</a> from v1 to v2. All latest platform
+releases are now fully supporting v2. Besides some UX improvements to the
+Mullvad VPN app, defense updates are mostly transparent to users. It should lead
+to significantly better performance, especially on mobile.</p>
+<p>I collaborate closely with Mullvad on DAITA. This blog post shares some details
+on how DAITA v1 works and what is new in v2. I&rsquo;m sorry in advance if it gets a
+bit specialized/academic at times. If you&rsquo;d like to discuss DAITA, please reach
+out! I&rsquo;m happy to answer questions and discuss.</p>
+<h2 id="what-is-a-defense">What is a defense?</h2>
+<p>Before getting into v1 and v2, we need to define what a defense is exactly. This
+is a super-important detail with a twist later.</p>
+<p>DAITA builds on <a href="https://github.com/maybenot-io/maybenot">Maybenot</a>, a framework
+for traffic analysis defenses. One instance of Maybenot is running at the client
+and another at the VPN server (or Tor relay, or HTTPS server, etc).</p>
+<p>An instance of Maybenot takes as input a <em>list of probabilistic state machines</em>
+and <em>limits</em> on <em>padding</em> and <em>blocking</em> actions. The limits can stop machines
+from sending padding traffic or blocking outgoing traffic. Machines encode logic
+for when to pad and/or block. Currently, Mullvad&rsquo;s integration of Maybenot does
+not support blocking, but can get similar effects by <a href="https://dl.acm.org/doi/pdf/10.1145/3559613.3563207">spamming
+padding</a>.</p>
+<p>A defense (note <em>singular</em>) consists of the inputs to the instances of Maybenot
+at the client and the VPN server/relay. These inputs are different. Clients and
+relays run different machines with different limits. This is especially
+important because typically clients download a lot more than they upload.</p>
+<h2 id="daita-v1-defenses">DAITA v1 defenses</h2>
+<p>For DAITA v1, we have a single hardcoded configuration at the client that is
+shared among multiple defenses (that differ at the relay).</p>
+<h3 id="client-side">Client-side</h3>
+<p>At the client, we <a href="https://github.com/mullvad/mullvadvpn-app/blob/fd09cfe53e5595f96eb70a823208b7a581010284/dist-assets/maybenot_machines">hardcoded four state
+machines</a>. The four machines:</p>
+<ol>
+<li>Sends a padding packet if no data has been sent on the tunnel in [1.5,9.5]
+seconds.</li>
+<li>Ensures that a packet is sent for every 3rd packet received.</li>
+<li>Ensures that a packet is sent for every 5th packet received.</li>
+<li>A machine that with some probability sends padding packets after randomized
+delays.</li>
+</ol>
+<p>Machine 1 collapses <a href="https://en.wikipedia.org/wiki/NetFlow">NetFlow</a> records,
+ensuring that the flow appears active (this reduces the resolution of these
+records). Based on Tor&rsquo;s <a href="https://spec.torproject.org/padding-spec/connection-level-padding.html?highlight=netflow">connection-level
+padding</a>.</p>
+<p>Machines 2 and 3 aim to make the client&rsquo;s <em>outgoing</em> traffic a <em>function of the
+incoming</em> traffic. This is inspired by the
+<a href="https://people.csail.mit.edu/devadas/pubs/wpes18.pdf">DynaFlow</a>/<a href="https://petsymposium.org/popets/2022/popets-2022-0049.pdf">RegulaTor</a>
+clients. If the relationship between incoming and outgoing traffic were perfect,
+there would be no extra information in the outgoing traffic. This is a neat
+design for website fingerprinting defenses that can block and are simulated.
+However, this is not the case for DAITA.</p>
+<p>You might have spotted above that if machine 2 sends a packet for every 3rd
+packet, then machine 3 would never send anything (since it would be reset by
+machine 2, never leading to 5 packets received without having sent anything).
+Alone, this is correct (if you simulated the machines), but the integration of
+Maybenot for DAITA v1 (particularly on Windows) results in an aggregation of
+events as reported to Maybenot from WireGuard and small integration delays in
+the reporting (integration specific). Therefore, machine 3 is actually useful
+when aggregation takes place.</p>
+<p>Instead of fighting event aggregation, integration delays, and the lack of
+blocking of outgoing traffic for DAITA v1, we turn this into a feature by
+embracing randomized defenses (unlike DynaFlow and RegulaTor which aim to
+``regularize&rsquo;&rsquo; traffic). This is where machine 4 comes in. Machine 4 can both
+create completely fake traffic when the connection is otherwise idle and add
+additional padding when real traffic is running.</p>
+<h3 id="relay-side">Relay-side</h3>
+<p>The relay has multiple defenses. In DAITA v1, the relay randomly picks from many
+defenses. Each of those defenses have the same client-side machines and
+configuration, as just described. The relay-side is different though and
+consists of 3 state machines each.</p>
+<p>In gist, each relay-side defense consists of a common NetFlow machine and an
+<a href="https://arxiv.org/pdf/2011.13471">Interspace-inspired</a> padding machine.
+Interspace was <a href="https://www-users.cse.umn.edu/~hoppernj/sok_wf_def_sp23.pdf">evaluated a couple of years
+ago</a> as a decent
+website fingerprinting defense. The third machine in each defense is unique for
+the defense, <em>generated</em> to improve the accuracy reduction against <a href="https://dl.acm.org/doi/pdf/10.1145/3243734.3243768">Deep
+Fingerprinting (DF)</a> and
+<a href="https://www.usenix.org/conference/usenixsecurity23/presentation/shen-meng">Robust Fingerprinting
+(RF)</a>,
+and not shared with clients.</p>
+<p>Note here that the simple client machines will now behave differently for each
+of the many defenses, because the client-side machines are event driven by input
+(padding) from the many randomized relay machines.</p>
+<p>We <a href="https://pulls.name/blog/2024-06-05-eval-first-daita-servers/">shared an evaluation of the first eight DAITA
+servers</a> a while
+back. While far from perfect, it is clear that DAITA is much better than
+WireGuard without DAITA, even in the strong scenario evaluated. I write strong
+scenario, because one has to keep in mind that the assumed adversary above has
+trained a classifier targeting DAITA v1 in the first place with no background
+traffic from the client (Spotify, other active tabs in the browser etc), taking
+the peculiarities of DAITA into account.</p>
+<p>Sorry for being a bit vague above on the design of the relay-side of defenses,
+but it is intentional. Unlike traditional settings of traffic analysis defenses,
+here, the defenses are actually more akin to cryptographic keys than
+cryptographic algorithms. There is value to an adversary targeting DAITA v1 to
+get access to the machines. This brings us to v2!</p>
+<h2 id="daita-v2-defenses">DAITA v2 defenses</h2>
+<p>For DAITA v2, we&rsquo;ve done some updates. Now, there is a simple protocol between
+client and relay to setup the defense when the connection is established. This
+is similar to how post-quantum secure tunnels are negotiated (some details
+<a href="https://mullvad.net/en/blog/why-we-still-dont-use-includeallnetworks">indirectly
+here</a>).</p>
+<p>When a v2 client negotiates DAITA, the relay will select from a database of
+defenses and send appropriate machines and limits (padding budgets) to the
+client. No more hardcoded machines at the client. Defenses are dynamic!</p>
+<p>There are many advantages here. For one, we now have an architecture that
+enables us to continuously improve our traffic analysis defenses and rapidly get
+them out to DAITA users. There is an inherent trade-off in the space between
+<a href="https://eprint.iacr.org/2017/954">overhead costs and protection</a>. Attacks are
+<a href="https://ieeexplore.ieee.org/document/10693553">getting much better</a>. Internet
+connections are <a href="https://www.speedtest.net/global-index">getting faster</a>. There
+is much work here to be done to optimize the user experience and protection
+against state-of-the-art attacks.</p>
+<p>Another big advantage is that dynamic defenses are a novel <em>defense strategy</em>.
+Typically, in good adherence to <a href="https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle">Kerckhoffs&rsquo;s
+principle</a>, we consider
+defenses as public and available to adversaries. Given (unpublished) methods, we
+can generate <em>a lot</em> of effective and efficient defenses. This allows us to
+deprive the adversary of direct access to defenses as a form of <a href="https://en.wikipedia.org/wiki/Defence_in_depth">defense in
+depth</a>. It also opens up for
+<a href="https://en.wikipedia.org/wiki/Concept_drift">weaponizing drift</a>. For the VPN
+setting, dynamic defenses fit perfectly since trust is already placed in VPN
+servers.</p>
+<p>If an adversary spends significant resources on tailoring a traffic analysis
+attack on DAITA, by periodically updating our database of defenses we invalidate
+their models for attacking future traffic. Keeping an attack up-to-date requires
+more effort (and Mullvad VPN subscriptions 😉).</p>
+<p>We have some ways still to get to fully ephemeral (databases of) defenses, but
+DAITA v2 is an important stepping stone. Today, there are many more defenses in
+DAITA v2 than in v1. The defenses will change over time. If you are researcher
+evaluating DAITA, I would recommend you keep detailed notes about your
+experiments.</p>
+<p>When we evaluate DAITA, we still always give the adversary full access to
+defenses. Here is evaluation results comparing DAITA v1 and v2 defenses in
+November 2024, simulated on the <a href="https://www-users.cse.umn.edu/~hoppernj/sok_wf_def_sp23.pdf">BigEnough
+dataset</a>:</p>
+<p><a href="/daita-v2-v1-comparison.png"><img src="/daita-v2-v1-comparison.png"></a></p>
+<p>In gist, v2 gives the same level of protection (y-axis) as v1, but at half the
+average bandwidth overhead (x-axis). The deployed defenses in November 2024 as
+we started beta-testing v2 are circled.</p>
+<h2 id="wrapping-up">Wrapping up</h2>
+<p>DAITA v2 improves on v1 with dynamic defenses. Performance should be better on
+average due to the reduced bandwidth overhead, especially on mobile. Because
+defenses are dynamic, if you end up with a slow connection, just reconnect like
+you would due to an overloaded VPN relay. You&rsquo;ll get a new DAITA defense (with
+overwhelming probability).</p>
+<p>We are wrapping up an academic paper on the details and theory behind ephemeral
+defenses. It will be open access. Together with the paper, we will release an
+open-source library and a cli-tool for creating them. Just like
+<a href="https://crates.io/crates/maybenot">Maybenot</a>, they&rsquo;ll both be open source and
+available as Rust crates.</p>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    
+</div>
+</body>
+</html>
